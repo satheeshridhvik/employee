@@ -13,4 +13,18 @@ same request payload
     "dateOfJoining":"2020-07-04",
     "salary": 75000
 }
+ API endpoint to return employees' tax deduction for the current financial year
+
+http://localhost:8080/employee/v1/employees/1
+
+{
+    "employeeId": 1,
+    "firstName": "ridhvik",
+    "lastName": "sai",
+    "emailId": "ridhvik@gmail.com",
+    "phoneNumber": 9043873905,
+    "dateOfJoining": "2020-07-04",
+    "salary": 75000.0,
+    "taxAmount": 45000.0
+}
 
