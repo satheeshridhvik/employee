@@ -1,3 +1,16 @@
  API endpoint to store employee details
 
 http://localhost:8080/employee/v1/employees
+
+same request payload
+
+{
+    "employeeId": 3,
+    "firstName": "ridhvik",
+    "lastName": "sai",
+    "emailId": "ridhvik@gmail.com",
+    "phoneNumber": 9043873905,
+    "dateOfJoining":"2020-07-04",
+    "salary": 75000
+}
+
